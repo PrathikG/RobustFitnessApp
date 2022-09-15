@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dietfull">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="296dp"
+        android:layout_height="509dp"
+        android:text="Breakfast: Half a cup of egg whites with two slices of whole-wheat toast. Have this with one tablespoon of butter\n\n
+Lunch: Salad with three cups of spinach or romaine lettuce two tablespoons of full-fat dressing.\n\n
+Dinner: A cup of cooked quinoa with 4 cups of roasted vegetables cooked with two tablespoons of olive oil."
+
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="258dp"
+        android:layout_height="74dp"
+        android:text="DIET PLAN FOR WEIGHT LOSS"
+        android:textSize="29dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/violet"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+</androidx.constraintlayout.widget.ConstraintLayout>

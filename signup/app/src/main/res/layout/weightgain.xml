@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dietfull">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="296dp"
+        android:layout_height="509dp"
+        android:text="Breakfast- Have whole wheat bread with eggs + some dry fruits + 1 glass of milk
+Have banana shake 2 hours after breakfast \n \n
+Lunch- Chapattis + Rice + lentils + vegetable curry + yogurt + salad \n\n
+Evening Snack- Vegetable Poha + Fruit smoothie
+Dinner- Chapattis + meat or vegetable curry + salad "
+
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="258dp"
+        android:layout_height="74dp"
+        android:text="DIET PLAN FOR WEIGHT GAIN"
+        android:textSize="29dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/violet"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+</androidx.constraintlayout.widget.ConstraintLayout>
